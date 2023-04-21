@@ -1,11 +1,15 @@
-import React from 'react'
+import TextLink from '@/shared/TextLink/TextLink';
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div>
+      Footer
+      <TextLink name="О Компании" to="https://corp.ivi.ru/" />
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
