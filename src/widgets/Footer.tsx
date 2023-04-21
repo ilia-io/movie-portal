@@ -1,3 +1,4 @@
+import GradientTextLink from '@/shared/GradientTextLink/GradientTextLink';
 import TextLink from '@/shared/TextLink/TextLink';
 import React from 'react';
 
@@ -8,6 +9,10 @@ const Footer = (props: Props) => {
     <div>
       Footer
       <TextLink name="О Компании" to="https://corp.ivi.ru/" />
+      <GradientTextLink
+        name="Активация сертификата"
+        to="https://www.ivi.ru/cert"
+      />
     </div>
   );
 };
