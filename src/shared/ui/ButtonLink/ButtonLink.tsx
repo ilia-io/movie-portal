@@ -8,7 +8,16 @@ type Props = {
 
 const ButtonLink = ({ name = 'Кнопка-Ссылка', to = '#' }: Props) => {
   return (
-    <Button href={to} target="_blank" rel="noreferrer">
+    <Button
+      sx={{
+        backgroundColor: 'background.paper',
+        color: 'primary.contrastText',
+        px: 4,
+      }}
+      href={to}
+      target="_blank"
+      rel="noreferrer"
+    >
       {name}
     </Button>
   );

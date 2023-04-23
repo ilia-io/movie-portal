@@ -14,7 +14,8 @@ const Footer = (props: Props) => {
         name="Активация сертификата"
         to="https://www.ivi.ru/cert"
       />
-      <ButtonLink />
+      <ButtonLink name="Написать в чате" to="https://www.ivi.ru/profile" />
+      <ButtonLink name="дом" to="https://www.ivi.ru/profile" />
     </div>
   );
 };
