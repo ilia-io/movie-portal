@@ -1,5 +1,5 @@
 import store from '@/store/store';
-import '@/styles/globals.css';
+import '@/styles/globals.scss';
 import Layout from '@/widgets/Layout';
 import type { AppProps } from 'next/app';
 import { Provider } from 'react-redux';

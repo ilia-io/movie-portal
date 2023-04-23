@@ -1,5 +1,5 @@
-import GradientTextLink from '@/shared/GradientTextLink/GradientTextLink';
-import TextLink from '@/shared/TextLink/TextLink';
+import GradientTextLink from '@/shared/ui/GradientTextLink/GradientTextLink';
+import TextLink from '@/shared/ui/TextLink/TextLink';
 import React from 'react';
 
 type Props = {};
