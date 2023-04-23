@@ -1,3 +1,4 @@
+import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
 import GradientTextLink from '@/shared/ui/GradientTextLink/GradientTextLink';
 import TextLink from '@/shared/ui/TextLink/TextLink';
 import React from 'react';
@@ -13,6 +14,7 @@ const Footer = (props: Props) => {
         name="Активация сертификата"
         to="https://www.ivi.ru/cert"
       />
+      <ButtonLink />
     </div>
   );
 };

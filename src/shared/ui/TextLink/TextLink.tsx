@@ -8,13 +8,7 @@ type Props = {
 
 const TextLink = ({ name = 'Ссылка', to = '#' }: Props) => {
   return (
-    <Link
-      href={to}
-      underline="none"
-      color="inherit"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <Link href={to} underline="none" target="_blank" rel="noreferrer">
       {name}
     </Link>
   );
