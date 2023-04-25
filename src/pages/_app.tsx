@@ -1,6 +1,6 @@
 import store from '@/store/store';
 import '@/styles/globals.scss';
-import Layout from '@/widgets/Layout';
+import Layout from '@/widgets/Layout/Layout';
 import type { AppProps } from 'next/app';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from '@mui/material/styles';

@@ -8,7 +8,17 @@ type Props = {
 
 const TextLink = ({ name = 'Ссылка', to = '#' }: Props) => {
   return (
-    <Link href={to} underline="none" target="_blank" rel="noreferrer">
+    <Link
+      sx={{
+        ':hover': {
+          color: 'white',
+        },
+      }}
+      href={to}
+      underline="none"
+      target="_blank"
+      rel="noreferrer"
+    >
       {name}
     </Link>
   );

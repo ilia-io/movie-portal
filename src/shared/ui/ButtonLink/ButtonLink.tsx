@@ -7,6 +7,7 @@ type Props = {
   to?: string;
   startIcon?: React.ReactNode;
   paddingX?: string;
+  paddingY?: string;
   topText?: string;
 };
 
@@ -14,7 +15,8 @@ const ButtonLink = ({
   name = 'Кнопка-Ссылка',
   to = '#',
   startIcon,
-  paddingX = '0px',
+  paddingX,
+  paddingY,
   topText,
 }: Props) => {
   return (
@@ -22,8 +24,13 @@ const ButtonLink = ({
       sx={{
         backgroundColor: 'background.paper',
         color: 'primary.contrastText',
-        px: `${paddingX}`,
+        px: paddingX,
+        py: paddingY,
         borderRadius: '8px',
+        ':hover': {
+          bgcolor: '#2E2844',
+        },
+        flexShrink: 0,
       }}
       href={to}
       target="_blank"
@@ -35,7 +42,7 @@ const ButtonLink = ({
           sx={{
             fontSize: '10px',
             lineHeight: '12px',
-            color: 'primary.main',
+            color: '#C3C2C8',
             textTransform: 'none',
           }}
         >
