@@ -25,6 +25,9 @@ const IconButton = ({
       sx={{
         backgroundColor,
         borderRadius,
+        ':hover': {
+          bgcolor: '#2E2844',
+        },
       }}
     >
       {icon}
