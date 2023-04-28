@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,7 +23,18 @@ export default function Home() {
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
         />
       </Head>
-      <main>main page</main>
+      <Container maxWidth="lg">
+        <Box
+          width={800}
+          height={800}
+          bgcolor={'secondary.main'}
+          m={20}
+          sx={{
+            boxShadow: '0px 0px 100px 30px rgba(168, 105, 240, 0.3)',
+            borderRadius: '40px',
+          }}
+        ></Box>
+      </Container>
     </>
   );
 }

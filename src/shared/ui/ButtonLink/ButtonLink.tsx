@@ -9,6 +9,7 @@ type Props = {
   paddingX?: string;
   paddingY?: string;
   topText?: string;
+  bgcolor?: string;
 };
 
 const ButtonLink = ({
@@ -18,11 +19,12 @@ const ButtonLink = ({
   paddingX,
   paddingY,
   topText,
+  bgcolor = '#1F1B2E',
 }: Props) => {
   return (
     <Button
       sx={{
-        backgroundColor: 'background.paper',
+        background: bgcolor,
         color: 'primary.contrastText',
         px: paddingX,
         py: paddingY,
