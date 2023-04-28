@@ -51,7 +51,7 @@ const Footer = (props: Props) => {
   return (
     <>
       <Container maxWidth="lg">
-        <Stack spacing={6}>
+        <Stack spacing={6} py={6}>
           <Grid container borderTop={1} borderBottom={1} py={6}>
             <Grid item xs={3}>
               <Stack spacing={1}>
@@ -137,6 +137,9 @@ const Footer = (props: Props) => {
                       sx={{
                         bgcolor: 'background.paper',
                         borderRadius: '8px',
+                        ':hover': {
+                          backgroundColor: '#2E2844',
+                        },
                       }}
                     >
                       <LocalPhoneIcon />

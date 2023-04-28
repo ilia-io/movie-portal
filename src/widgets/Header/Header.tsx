@@ -23,6 +23,7 @@ import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+import PopupMenu from './PopupMenu/PopupMenu';
 
 type Props = {};
 
@@ -60,21 +61,21 @@ const Header = (props: Props) => {
 
   return (
     <>
-      <Container sx={{}} maxWidth="lg">
+      <Container maxWidth="lg">
         <Box
           sx={{
-            bgcolor: 'transparent',
+            bgcolor: '#1F1B2E',
             mt: 0.5,
             px: 1.5,
             py: 0.5,
-            borderRadius: '8px 8px 0 0',
+            borderRadius: '12px 12px 0 0',
+            borderBottom: 1,
           }}
         >
           <Toolbar
             disableGutters
             sx={{
               bgcolor: 'transparent',
-              // borderBottom: 1,
             }}
           >
             <Box
@@ -157,6 +158,9 @@ const Header = (props: Props) => {
           </Toolbar>
         </Box>
       </Container>
+      <PopupMenu>
+        
+      </PopupMenu>
     </>
   );
 };
