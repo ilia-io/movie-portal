@@ -24,6 +24,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import PopupMenu from './PopupMenu/PopupMenu';
+import PopupContentMovies from './PopupContentMovies/PopupContentMovies';
 
 type Props = {};
 
@@ -159,7 +160,7 @@ const Header = (props: Props) => {
         </Box>
       </Container>
       <PopupMenu>
-        
+        <PopupContentMovies />
       </PopupMenu>
     </>
   );
