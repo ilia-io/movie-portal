@@ -9,11 +9,11 @@ import theme from '@/shared/config/muiTheme';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
-      <Layout>
-        <Provider store={store}>
+      <Provider store={store}>
+        <Layout>
           <Component {...pageProps} />
-        </Provider>
-      </Layout>
+        </Layout>
+      </Provider>
     </ThemeProvider>
   );
 }
