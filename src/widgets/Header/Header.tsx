@@ -1,22 +1,12 @@
 import React from 'react';
 // import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import Image from 'next/image';
 import logo from 'public/assets/images/logo.svg';
 import Link from 'next/link';
-import theme from '@/shared/config/muiTheme';
 import { Stack } from '@mui/material';
 import TextLink from '@/shared/ui/TextLink/TextLink';
 import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
@@ -26,6 +16,7 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import PopupMenu from './PopupMenu/PopupMenu';
 import PopupContentMovies from './PopupContentMovies/PopupContentMovies';
 import PopupContentSeries from './PopupContentSeries/PopupContentSeries';
+import PopupContentNotifications from './PopupContentNotifications/PopupContentNotifications';
 
 type Props = {};
 
@@ -191,6 +182,8 @@ const Header = (props: Props) => {
               <PopupContentMovies />
             ) : activeHoverCategorie === 'Сериалы' ? (
               <PopupContentSeries />
+            ) : activeHoverCategorie === 'Уведомления' ? (
+              <PopupContentNotifications />
             ) : null}
           </PopupMenu>
         </Box>
