@@ -4,65 +4,63 @@ import React from 'react';
 import ListWithLeftSlider from '../ListWithLeftSlider/ListWithLeftSlider';
 
 type Props = {};
-
 const genres = [
-  'Артхаус',
+  'Биография',
   'Боевики',
-  'Вестерн',
   'Военные',
   'Детективы',
   'Для всей семьи',
-  'Для детей',
   'Документальные',
+  'Дорамы',
   'Драмы',
   'Исторические',
-  'Катастрофы',
-  'Комедии',
+  'Комедийные',
   'Криминальные',
+  'Медицинские',
   'Мелодрамы',
   'Мистические',
-  'По комиксам',
   'Приключения',
-  'Спорт',
+  'Романтические',
+  'Телешоу',
   'Триллеры',
+  'Турецкие',
   'Ужасы',
-  'Фантастика',
+  'Фантастические',
   'Фэнтези',
 ];
-const countries = ['Русские', 'Зарубежные', 'Советское кино'];
+const countries = [
+  'Русские',
+  'Зарубежные',
+  'Американские',
+  'Корейские',
+  'Турецкие',
+];
 const years = [
-  'Фильмы 2023 года',
-  'Фильмы 2022 года',
-  'Фильмы 2021 года',
-  'Фильмы 2020 года',
+  'Сериалы 2023 года',
+  'Сериалы 2022 года',
+  'Сериалы 2021 года',
+  'Сериалы 2020 года',
 ];
 const categories = [
-  { name: 'Новинки', link: 'https://www.ivi.ru/new/movie-new' },
-  { name: 'Подборки', link: 'https://www.ivi.ru/collections' },
   {
     name: 'Иви.Рейтинг',
-    link: 'https://www.ivi.ru/movies/all?ivi_rating_10_gte=7&sort=ivi&rating_part=main&rating_model=ready',
+    link: 'https://www.ivi.ru/series/all?ivi_rating_10_gte=7&sort=ivi&rating_part=main&rating_model=ready',
   },
-  { name: 'Скоро на Иви', link: 'https://www.ivi.ru/new/soon-ivi' },
-  { name: 'Трейлеры', link: 'https://www.ivi.ru/trailers' },
-  { name: 'Что посмотреть', link: 'https://www.ivi.ru/goodmovies' },
-  { name: 'Фильмы в HD', link: 'https://www.ivi.ru/collections/movies-hd' },
-  { name: 'Выбор Иви', link: 'https://www.ivi.ru/collections/vyibor-ivi' },
+  { name: 'Сериалы в HD', link: 'https://www.ivi.ru/collections/series-hd' },
   {
-    name: 'Новинки подписки',
-    link: 'https://www.ivi.ru/collections/very-new-svod?sort=priority_in_collection',
+    name: 'Бесплатные сериалы',
+    link: 'https://www.ivi.ru/collections/tvshow-free?sort=new',
   },
   {
-    name: 'Фильмы Amediateka',
-    link: 'https://www.ivi.ru/collections/filmyi-amediateka',
+    name: 'Сериалы Amediateka',
+    link: 'https://www.ivi.ru/collections/serialyi-amediateka',
   },
   {
-    name: 'Популярные фильмы',
-    link: 'https://www.ivi.ru/collections/best-movies',
+    name: 'Сериалы Paramount Play',
+    link: 'https://www.ivi.ru/collections/series-paramount-play',
   },
-  { name: 'Фильмы Иви', link: 'https://www.ivi.ru/collections/ivi-originals' },
 ];
-const PopupContentMovies = (props: Props) => {
+const PopupContentSeries = (props: Props) => {
   return (
     <>
       <Grid container px={3} py={4}>
@@ -106,4 +104,4 @@ const PopupContentMovies = (props: Props) => {
   );
 };
 
-export default PopupContentMovies;
+export default PopupContentSeries;

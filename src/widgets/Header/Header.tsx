@@ -25,6 +25,7 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import PopupMenu from './PopupMenu/PopupMenu';
 import PopupContentMovies from './PopupContentMovies/PopupContentMovies';
+import PopupContentSeries from './PopupContentSeries/PopupContentSeries';
 
 type Props = {};
 
@@ -185,7 +186,12 @@ const Header = (props: Props) => {
           onMouseLeave={() => setShowPopup(false)}
         >
           <PopupMenu>
-            <PopupContentMovies />
+            {/* const hoverable = ['Фильмы', 'Сериалы', 'Уведомления', 'Профиль']; */}
+            {activeHoverCategorie === 'Фильмы' ? (
+              <PopupContentMovies />
+            ) : activeHoverCategorie === 'Сериалы' ? (
+              <PopupContentSeries />
+            ) : null}
           </PopupMenu>
         </Box>
       )}
