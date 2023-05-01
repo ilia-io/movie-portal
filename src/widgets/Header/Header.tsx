@@ -36,41 +36,55 @@ const navItems = [
   { name: 'Мультфильмы', link: 'https://www.ivi.ru/animation' },
   { name: 'TV+', link: 'https://www.ivi.ru/tvplus' },
 ];
+const hoverable = ['Фильмы', 'Сериалы', 'Уведомления', 'Профиль'];
 
 const Header = (props: Props) => {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-    null
-  );
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
-    null
-  );
+  const [showPopup, setShowPopup] = React.useState(false);
+  const [activeHoverCategorie, setActiveHoverCategorie] = React.useState('');
 
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
+  // const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
+  //   null
+  // );
+  // const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
+  //   null
+  // );
+
+  // const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
+  //   setAnchorElNav(event.currentTarget);
+  // };
+  // const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
+
+  // const handleCloseNavMenu = () => {
+  //   setAnchorElNav(null);
+  // };
+
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
+
+  const handleMouseOver = (name: string) => {
+    setShowPopup(hoverable.some((el) => el === name));
+    setActiveHoverCategorie(name);
   };
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
+  const handleMouseOut = (name: string) => {
+    if (hoverable.some((el) => el !== name)) setShowPopup(false);
   };
 
   return (
     <>
       <Container maxWidth="lg">
         <Box
+          onMouseLeave={() => setShowPopup(false)}
           sx={{
-            bgcolor: '#1F1B2E',
+            bgcolor: `${showPopup ? '#1F1B2E' : 'transparent'}`,
             mt: 0.5,
             px: 1.5,
             py: 0.5,
             borderRadius: '12px 12px 0 0',
-            borderBottom: 1,
+            borderBottom: showPopup ? 1 : 0,
           }}
         >
           <Toolbar
@@ -95,11 +109,12 @@ const Header = (props: Props) => {
               }}
             >
               {navItems.map((navItem) => (
-                <TextLink
+                <Box
                   key={navItem.name}
-                  name={navItem.name}
-                  to={navItem.link}
-                />
+                  onMouseEnter={() => handleMouseOver(navItem.name)}
+                >
+                  <TextLink name={navItem.name} to={navItem.link} />
+                </Box>
               ))}
             </Stack>
             <Box sx={{ flexGrow: 1 }}></Box>
@@ -117,6 +132,7 @@ const Header = (props: Props) => {
                 to="https://www.ivi.ru/login?action=%2Fuser%2Fsubscription&buy=true&type=subscriptionChange&renew_period=2592000&subscription_id=6&redirect_url=%2F&from=top_menu"
               />
               <Button
+                onMouseEnter={() => setShowPopup(false)}
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.ivi.ru/?ivi_search"
@@ -133,6 +149,7 @@ const Header = (props: Props) => {
                 <SearchIcon /> Поиск
               </Button>
               <NotificationsNoneIcon
+                onMouseEnter={() => handleMouseOver('Уведомления')}
                 sx={{
                   cursor: 'pointer',
                   ':hover': {
@@ -141,6 +158,7 @@ const Header = (props: Props) => {
                 }}
               />
               <Box
+                onMouseEnter={() => handleMouseOver('Профиль')}
                 sx={{
                   border: 1.5,
                   p: 1,
@@ -159,9 +177,18 @@ const Header = (props: Props) => {
           </Toolbar>
         </Box>
       </Container>
-      <PopupMenu>
-        <PopupContentMovies />
-      </PopupMenu>
+      {showPopup && (
+        <Box
+          // onMouseOver={() => handleMouseOver(activeHoverCategorie)}
+          // onMouseOut={() => handleMouseOut(activeHoverCategorie)}
+          onMouseEnter={() => setShowPopup(true)}
+          onMouseLeave={() => setShowPopup(false)}
+        >
+          <PopupMenu>
+            <PopupContentMovies />
+          </PopupMenu>
+        </Box>
+      )}
     </>
   );
 };
