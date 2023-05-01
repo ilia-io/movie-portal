@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import { Grid, Stack, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 type Props = {};
 

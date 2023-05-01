@@ -35,28 +35,6 @@ const Header = (props: Props) => {
   const [showPopup, setShowPopup] = React.useState(false);
   const [activeHoverCategorie, setActiveHoverCategorie] = React.useState('');
 
-  // const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-  //   null
-  // );
-  // const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
-  //   null
-  // );
-
-  // const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-  //   setAnchorElNav(event.currentTarget);
-  // };
-  // const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-  //   setAnchorElUser(event.currentTarget);
-  // };
-
-  // const handleCloseNavMenu = () => {
-  //   setAnchorElNav(null);
-  // };
-
-  // const handleCloseUserMenu = () => {
-  //   setAnchorElUser(null);
-  // };
-
   const handleMouseOver = (name: string) => {
     setShowPopup(hoverable.some((el) => el === name));
     setActiveHoverCategorie(name);
@@ -172,8 +150,6 @@ const Header = (props: Props) => {
       </Container>
       {showPopup && (
         <Box
-          // onMouseOver={() => handleMouseOver(activeHoverCategorie)}
-          // onMouseOut={() => handleMouseOut(activeHoverCategorie)}
           onMouseEnter={() => setShowPopup(true)}
           onMouseLeave={() => setShowPopup(false)}
         >

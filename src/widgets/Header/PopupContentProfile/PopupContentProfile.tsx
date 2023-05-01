@@ -1,7 +1,5 @@
 import React from 'react';
-import TextLink from '@/shared/ui/TextLink/TextLink';
-import { Grid, Stack, Typography } from '@mui/material';
-import ListWithLeftSlider from '../ListWithLeftSlider/ListWithLeftSlider';
+import { Grid, Stack } from '@mui/material';
 import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
 
 type Props = {};
@@ -23,14 +21,7 @@ const PopupContentProfile = (props: Props) => {
             justifyContent: 'flex-end',
           }}
         >
-          <Grid
-            item
-            sx={
-              {
-                // alignItems: 'flex-end',
-              }
-            }
-          >
+          <Grid item>
             <ButtonLink
               name="Войти или зарегистрироваться"
               bgcolor="#EA003D"
