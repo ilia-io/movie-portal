@@ -1,5 +1,5 @@
 import TextLink from '@/shared/ui/TextLink/TextLink';
-import { Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack, Typography } from '@mui/material';
 import React from 'react';
 import ListWithLeftSlider from '../ListWithLeftSlider/ListWithLeftSlider';
 
@@ -71,7 +71,9 @@ const PopupContentMovies = (props: Props) => {
             <Stack spacing={1}>
               <Typography color={'text.primary'}>Жанры</Typography>
               {genres.slice(0, 11).map((genre) => (
-                <TextLink name={genre} />
+                <Box key={genre}>
+                  <TextLink name={genre} />
+                </Box>
               ))}
             </Stack>
           </Grid>
@@ -79,7 +81,9 @@ const PopupContentMovies = (props: Props) => {
             <Stack spacing={1}>
               <Typography color={'text.primary'}>{`‎`}</Typography>
               {genres.slice(11).map((genre) => (
-                <TextLink name={genre} />
+                <Box key={genre}>
+                  <TextLink name={genre} />
+                </Box>
               ))}
             </Stack>
           </Grid>
@@ -87,13 +91,17 @@ const PopupContentMovies = (props: Props) => {
             <Stack spacing={1}>
               <Typography color={'text.primary'}>Страны</Typography>
               {countries.map((country) => (
-                <TextLink name={country} />
+                <Box key={country}>
+                  <TextLink name={country} />
+                </Box>
               ))}
             </Stack>
             <Stack spacing={1} mt={3}>
               <Typography color={'text.primary'}>Годы</Typography>
               {years.map((year) => (
-                <TextLink name={year} />
+                <Box key={year}>
+                  <TextLink name={year} />
+                </Box>
               ))}
             </Stack>
           </Grid>

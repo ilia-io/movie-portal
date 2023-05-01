@@ -10,6 +10,8 @@ type Props = {
   paddingY?: string;
   topText?: string;
   bgcolor?: string;
+  bgcolorHover?: string;
+  borderRadius?: string;
 };
 
 const ButtonLink = ({
@@ -20,6 +22,8 @@ const ButtonLink = ({
   paddingY,
   topText,
   bgcolor = '#1F1B2E',
+  bgcolorHover = '#2E2844',
+  borderRadius = '8px',
 }: Props) => {
   return (
     <Button
@@ -28,9 +32,9 @@ const ButtonLink = ({
         color: 'primary.contrastText',
         px: paddingX,
         py: paddingY,
-        borderRadius: '8px',
+        borderRadius,
         ':hover': {
-          bgcolor: '#2E2844',
+          bgcolor: bgcolorHover,
         },
         flexShrink: 0,
       }}

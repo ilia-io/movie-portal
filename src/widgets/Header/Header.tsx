@@ -17,6 +17,7 @@ import PopupMenu from './PopupMenu/PopupMenu';
 import PopupContentMovies from './PopupContentMovies/PopupContentMovies';
 import PopupContentSeries from './PopupContentSeries/PopupContentSeries';
 import PopupContentNotifications from './PopupContentNotifications/PopupContentNotifications';
+import PopupContentProfile from './PopupContentProfile/PopupContentProfile';
 
 type Props = {};
 
@@ -89,7 +90,7 @@ const Header = (props: Props) => {
               sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}
             ></Box>
             <Link href="/">
-              <Image src={logo} alt="logo" />
+              <Image src={logo} alt="logo" priority />
             </Link>
             <Stack
               direction={'row'}
@@ -177,13 +178,14 @@ const Header = (props: Props) => {
           onMouseLeave={() => setShowPopup(false)}
         >
           <PopupMenu>
-            {/* const hoverable = ['Фильмы', 'Сериалы', 'Уведомления', 'Профиль']; */}
             {activeHoverCategorie === 'Фильмы' ? (
               <PopupContentMovies />
             ) : activeHoverCategorie === 'Сериалы' ? (
               <PopupContentSeries />
             ) : activeHoverCategorie === 'Уведомления' ? (
               <PopupContentNotifications />
+            ) : activeHoverCategorie === 'Профиль' ? (
+              <PopupContentProfile />
             ) : null}
           </PopupMenu>
         </Box>
