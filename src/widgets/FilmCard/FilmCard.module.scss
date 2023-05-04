@@ -1,0 +1,15 @@
+@import "/src/styles/main.scss";
+
+.filmContainer {
+  
+}
+
+.poster {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 276px;
+
+    &:not(:hover):not(:active) {
+        transition-duration: .4s;
+    }
+}
