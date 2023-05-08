@@ -5,6 +5,7 @@ import type { AppProps } from 'next/app';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '@/shared/config/muiTheme';
+import '../widgets/MainPage/Carousel/Carousel.scss';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
