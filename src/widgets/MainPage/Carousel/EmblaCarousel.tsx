@@ -13,6 +13,7 @@ import { Stack, Typography } from '@mui/material';
 import { slides } from './imageByIndex';
 import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
 import Link from 'next/link';
+import MuiLink from '@mui/material/Link';
 
 type Props = {
   slides: number[];
@@ -127,34 +128,45 @@ const EmblaCarousel = ({ slides, options }: Props) => {
                     src={contentByIndex(index).banner}
                     alt="Your alt text"
                   />
-                  <Stack
-                    spacing={3}
+                </Link>
+                <Stack
+                  spacing={3}
+                  sx={{
+                    alignItems: 'flex-start',
+                    width: '450px',
+                    position: 'absolute',
+                    bottom: 40,
+                    left: 40,
+                    pointerEvents: 'none',
+                  }}
+                >
+                  <Image
+                    style={{
+                      maxWidth: '400px',
+                      height: 'auto',
+                    }}
+                    alt="Your alt text"
+                    src={contentByIndex(index).logo}
+                  />
+
+                  <Typography
                     sx={{
-                      alignItems: 'flex-start',
-                      width: '450px',
-                      position: 'absolute',
-                      bottom: 40,
-                      left: 40,
+                      fontSize: '13px',
+                      color: '#fff',
                     }}
                   >
-                    <Image
-                      style={{ maxWidth: '400px', height: 'auto' }}
-                      alt="Your alt text"
-                      src={contentByIndex(index).logo}
-                    />
-                    <Typography sx={{ fontSize: '13px', color: '#fff' }}>
-                      {contentByIndex(index).text}
-                    </Typography>
-                    <ButtonLink
-                      name={contentByIndex(index).buttonText}
-                      bgcolor="#EA003D"
-                      bgcolorHover="#FF0F4D"
-                      paddingX={'1rem'}
-                      borderRadius="7px"
-                      to={contentByIndex(index).link}
-                    />
-                  </Stack>
-                </Link>
+                    {contentByIndex(index).text}
+                  </Typography>
+
+                  <ButtonLink
+                    name={contentByIndex(index).buttonText}
+                    bgcolor="#EA003D"
+                    bgcolorHover="#FF0F4D"
+                    paddingX={'1rem'}
+                    borderRadius="7px"
+                    to={contentByIndex(index).link}
+                  />
+                </Stack>
               </div>
             ))}
           </div>
