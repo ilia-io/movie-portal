@@ -12,6 +12,7 @@ type Props = {
   bgcolor?: string;
   bgcolorHover?: string;
   borderRadius?: string;
+  flex?: string;
 };
 
 const ButtonLink = ({
@@ -24,6 +25,7 @@ const ButtonLink = ({
   bgcolor = '#1F1B2E',
   bgcolorHover = '#2E2844',
   borderRadius = '8px',
+  flex,
 }: Props) => {
   return (
     <Button
@@ -37,6 +39,7 @@ const ButtonLink = ({
           bgcolor: bgcolorHover,
         },
         flexShrink: 0,
+        flex,
       }}
       href={to}
       target="_blank"

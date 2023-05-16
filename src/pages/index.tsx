@@ -3,7 +3,13 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
-import Carousel from '@/widgets/MainPage/Carousel/Carousel';
+import PromoCarousel from '@/widgets/MainPage/PromoCarousel/PromoCarousel';
+import Top10Carousel from '@/widgets/MainPage/Top10Carousel/Top10Carousel';
+import { Stack, Typography } from '@mui/material';
+import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
+import lightning from '../../public/assets/icons/lightning.svg';
+import gift from '../../public/assets/icons/gift.svg';
+import top10 from '../../public/assets/icons/top10.svg';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,7 +23,51 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Carousel />
+        <Container maxWidth="lg">
+          {' '}
+          <PromoCarousel />
+        </Container>
+
+        <Container maxWidth="lg">
+          <Stack
+            direction={'row'}
+            spacing={2.5}
+            sx={{ justifyContent: 'center' }}
+            p={4}
+          >
+            <ButtonLink
+              to="https://www.ivi.ru/subscribe?redirect_url=%2F"
+              name="30 дней подписки за 1 ₽"
+              startIcon={<Image src={lightning} alt="lightning" />}
+              flex="1 0 50%"
+              bgcolor="#2e1d40"
+              bgcolorHover="#321F45"
+            />
+            <ButtonLink
+              to="https://www.ivi.ru/login?action=%2Fuser%2Fcertificate&redirect_url=%2F"
+              name="Активировать сертификат"
+              startIcon={<Image src={gift} alt="gift" />}
+              flex="1 0 50%"
+              bgcolorHover="#231F34"
+            />
+          </Stack>
+        </Container>
+        <Container maxWidth="lg">
+          <Stack direction={'row'} spacing={1} sx={{ alignItems: 'center' }}>
+            <Image src={top10} alt="top10" />
+            <Typography
+              sx={{
+                color: '#fff',
+                fontWeight: '700',
+                fontSize: '20px',
+              }}
+            >
+              {' '}
+              за неделю
+            </Typography>
+          </Stack>
+          <Top10Carousel />
+        </Container>
       </main>
     </>
   );
