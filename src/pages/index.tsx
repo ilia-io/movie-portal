@@ -10,6 +10,7 @@ import ButtonLink from '@/shared/ui/ButtonLink/ButtonLink';
 import lightning from '../../public/assets/icons/lightning.svg';
 import gift from '../../public/assets/icons/gift.svg';
 import top10 from '../../public/assets/icons/top10.svg';
+import OnlineCinemaText from '@/widgets/MainPage/OnlineCinemaText/OnlineCinemaText';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -67,6 +68,9 @@ export default function Home() {
             </Typography>
           </Stack>
           <Top10Carousel />
+        </Container>
+        <Container maxWidth="lg">
+          <OnlineCinemaText />
         </Container>
       </main>
     </>
