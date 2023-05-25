@@ -79,9 +79,11 @@
   // overflow: hidden;
   width: 100%;
 
-  &_top10 {
+  &_top10,
+  &_collection {
     overflow: hidden;
   }
+
 }
 
 .embla__container {
@@ -109,6 +111,18 @@
       transform: scale(1) translateY(0);
     }
   }
+
+  &_collection {
+    height: 254px;
+    flex: 0 0 14%;
+    transition: 0.15s;
+    transform: scale(0.95);
+    min-width: 166px;
+
+    &:hover {
+      transform: scale(1) translateY(0);
+    }
+  }
 }
 
 .embla__slide__img {
@@ -118,19 +132,33 @@
   object-fit: cover;
   border-radius: 26px;
 
-  &_top10 {
+  &_top10,
+  &_collection {
     border-radius: 8px;
   }
 
 }
 
-.embla__content_top10 {
-  max-width: 304px;
-  padding: 0 20px;
-  position: absolute;
-  bottom: 0;
-  background: transparent;
-  background: linear-gradient(0deg, rgba(16, 15, 26, 1) 15%, rgba(16, 15, 26, 0.5) 80%, transparent 100%);
+.embla__content {
+
+  &_top10 {
+    max-width: 304px;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    background: linear-gradient(0deg, rgba(16, 15, 26, 1) 15%, rgba(16, 15, 26, 0.5) 80%, transparent 100%);
+  }
+
+  &_collection {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0 0 0 15px;
+    width: 166px;
+    height: 254px;
+    background-color: rgba(16, 15, 26, 0.6);
+  }
 }
 
 .embla__content-logo_top10 {
@@ -141,6 +169,12 @@
 .embla__content-number_top10 {
   width: auto;
   height: 66px;
+}
+
+.embla__content_top-collection {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .embla__slide__number {

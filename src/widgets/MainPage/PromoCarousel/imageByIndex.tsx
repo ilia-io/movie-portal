@@ -1,7 +1,3 @@
-import image1 from './images/slide-1.jpg';
-import image2 from './images/slide-2.jpg';
-import image3 from './images/slide-3.jpg';
-import image4 from './images/slide-4.jpg';
 import banner1 from '../../../../public/assets/carousel/promo/slide-1/banner.png';
 import logo1 from '../../../../public/assets/carousel/promo/slide-1/logo.png';
 import banner2 from '../../../../public/assets/carousel/promo/slide-2/banner.png';
@@ -52,7 +48,7 @@ export const slides: IPromoSlide[] = [
 
 const slideImages: any[] = slides.map((slide) => slide.banner);
 
-export const images: any[] = [image1, image2, image3, image4];
+// export const images: any[] = [image1, image2, image3, image4];
 
 // const imageByIndex = (index: number): string =>
 //   slideImages[index % slideImages.length];

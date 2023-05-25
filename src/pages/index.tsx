@@ -11,6 +11,7 @@ import lightning from '../../public/assets/icons/lightning.svg';
 import gift from '../../public/assets/icons/gift.svg';
 import top10 from '../../public/assets/icons/top10.svg';
 import OnlineCinemaText from '@/widgets/MainPage/OnlineCinemaText/OnlineCinemaText';
+import CollectionCarousel from '@/widgets/MainPage/CollectionCarousel/CollectionCarousel';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,10 +26,8 @@ export default function Home() {
       </Head>
       <main>
         <Container maxWidth="lg">
-          {' '}
           <PromoCarousel />
         </Container>
-
         <Container maxWidth="lg">
           <Stack
             direction={'row'}
@@ -71,6 +70,9 @@ export default function Home() {
         </Container>
         <Container maxWidth="lg">
           <OnlineCinemaText />
+        </Container>
+        <Container maxWidth="lg">
+          <CollectionCarousel />
         </Container>
       </main>
     </>
