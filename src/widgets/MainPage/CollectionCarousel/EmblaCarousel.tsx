@@ -1,17 +1,11 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel, { EmblaOptionsType } from 'embla-carousel-react';
-import contentByIndex from './imageByIndex';
-import Image, { StaticImageData } from 'next/image';
 import {
   DotButton,
   PrevButton,
   NextButton,
 } from './EmblaCarouselArrowsDotsButtons';
-import { Box, Stack } from '@mui/material';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
-import HideSourceIcon from '@mui/icons-material/HideSource';
+import CollectionSlide from './CollectionSlide';
 
 type PropType = {
   slides: number[];
@@ -61,24 +55,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       >
         <div className="embla__container">
           {slides.map((index) => (
-            <div className="embla__slide embla__slide_collection" key={index}>
-              <Image
-                className="embla__slide__img embla__slide__img_collection"
-                src={contentByIndex(index).banner}
-                alt="Your alt text"
-              />
-              <Stack className="embla__content_collection">
-                <Stack
-                  className="embla__content_top-collection"
-                   spacing={0.5}
-                  sx={{ flex: '0 1 50%' }}
-                >
-                  <BookmarkBorderIcon /> <AutoFixHighIcon /> <StarBorderIcon />
-                  <HideSourceIcon />
-                </Stack>
-                <Box sx={{ flex: '0 1 50%' }}>asdasd</Box>
-              </Stack>
-            </div>
+            <CollectionSlide key={index} index={index}/>
           ))}
         </div>
       </div>
