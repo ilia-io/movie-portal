@@ -6,6 +6,7 @@ import {
   NextButton,
 } from './EmblaCarouselArrowsDotsButtons';
 import CollectionSlide from './CollectionSlide';
+import contentByIndex from './imageByIndex';
 
 type PropType = {
   slides: number[];
@@ -55,7 +56,11 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       >
         <div className="embla__container">
           {slides.map((index) => (
-            <CollectionSlide key={index} index={index}/>
+            <CollectionSlide
+              key={index}
+              index={index}
+              content={contentByIndex}
+            />
           ))}
         </div>
       </div>

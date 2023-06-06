@@ -1,0 +1,962 @@
+[
+  {
+    "id": 9,
+    "sourceId": 535341,
+    "year": 2011,
+    "originalTitle": "Intouchables",
+    "movieLength": 112,
+    "ageRating": 16,
+    "genres": ["Биография", "Драма", "Комедия"],
+    "countries": ["Франция"],
+    "names": ["1+1", "Неприкасаемые"],
+    "description": "Пострадав в результате несчастного случая, богатый аристократ Филипп нанимает в помощники человека, который менее всего подходит для этой работы, – молодого жителя предместья Дрисса, только что освободившегося из тюрьмы. Несмотря на то, что Филипп прикован к инвалидному креслу, Дриссу удается привнести в размеренную жизнь аристократа дух приключений.",
+    "rating": 8.805,
+    "posters": [
+      {
+        "id": 4,
+        "filmId": 9,
+        "url": "https://st.kp.yandex.net/images/film_big/535341.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 7,
+        "filmId": 9,
+        "url": "https://www.youtube.com/embed/0RqDiYnFxTk",
+        "name": "The Intouchables / Intouchables (2011) - Trailer (English subtitles)",
+        "site": "youtube"
+      },
+      {
+        "id": 8,
+        "filmId": 9,
+        "url": "https://www.youtube.com/embed/34WIbmXkewU",
+        "name": "The Intouchables Official Trailer #1 (2012) HD Movie",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "sourceId": 328,
+    "year": 2001,
+    "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "movieLength": 178,
+    "ageRating": 12,
+    "genres": ["Боевик", "Драма", "Приключения", "Фэнтези"],
+    "countries": ["США", "Новая Зеландия"],
+    "names": ["Властелин колец: Братство Кольца"],
+    "description": "Сказания о Средиземье — это хроника Великой войны за Кольцо, длившейся не одну тысячу лет. Тот, кто владел Кольцом, получал неограниченную власть, но был обязан служить злу. \n\nТихая деревня, где живут хоббиты. Придя на 111-й день рождения к своему старому другу Бильбо Бэггинсу, волшебник Гэндальф начинает вести разговор о кольце, которое Бильбо нашел много лет назад. Это кольцо принадлежало когда-то темному властителю Средиземья Саурону, и оно дает большую власть своему обладателю. Теперь Саурон хочет вернуть себе власть над Средиземьем. Бильбо отдает Кольцо племяннику Фродо, чтобы тот отнёс его к Роковой Горе и уничтожил.",
+    "rating": 8.604,
+    "posters": [
+      {
+        "id": 5,
+        "filmId": 10,
+        "url": "https://st.kp.yandex.net/images/film_big/328.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_328.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 9,
+        "filmId": 10,
+        "url": "https://www.youtube.com/embed/_nZdmwHrcnw",
+        "name": "Official Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 10,
+        "filmId": 10,
+        "url": "https://www.youtube.com/embed/AHWSMnEEPdQ",
+        "name": "Властелин Колец: Братство Кольца Официальный Трейлер 1 (2001)",
+        "site": "youtube"
+      },
+      {
+        "id": 11,
+        "filmId": 10,
+        "url": "https://www.youtube.com/embed/xPrxOJCw1B8",
+        "name": "Властелин колец: Братство кольца - Трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "sourceId": 435,
+    "year": 1999,
+    "originalTitle": "The Green Mile",
+    "movieLength": 189,
+    "ageRating": 16,
+    "genres": ["Драма", "Криминал", "Фэнтези"],
+    "countries": ["США"],
+    "names": ["Зеленая миля"],
+    "description": "Пол Эджкомб — начальник блока смертников в тюрьме «Холодная гора», каждый из узников которого однажды проходит «зеленую милю» по пути к месту казни. Пол повидал много заключённых и надзирателей за время работы. Однако гигант Джон Коффи, обвинённый в страшном преступлении, стал одним из самых необычных обитателей блока.",
+    "rating": 9.073,
+    "posters": [
+      {
+        "id": 6,
+        "filmId": 11,
+        "url": "https://st.kp.yandex.net/images/film_big/435.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_435.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 12,
+        "filmId": 11,
+        "url": "https://www.youtube.com/embed/Bg7epsq0OIQ",
+        "name": "Official Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 13,
+        "filmId": 11,
+        "url": "https://www.youtube.com/embed/TODt_q-_4C4",
+        "name": "Зеленая миля (1999) — русский трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "sourceId": 326,
+    "year": 1994,
+    "originalTitle": "The Shawshank Redemption",
+    "movieLength": 142,
+    "ageRating": 16,
+    "genres": ["Драма"],
+    "countries": ["США"],
+    "names": ["Побег из Шоушенка", "Искупление Шоушенком"],
+    "description": "Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам, добиваясь их особого к себе расположения.",
+    "rating": 9.108,
+    "posters": [
+      {
+        "id": 7,
+        "filmId": 12,
+        "url": "https://st.kp.yandex.net/images/film_big/326.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_326.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 14,
+        "filmId": 12,
+        "url": "https://www.youtube.com/embed/PLl99DlL6b4",
+        "name": "Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 15,
+        "filmId": 12,
+        "url": "https://www.youtube.com/embed/vYsQ5mu5Xow",
+        "name": "The Shawshank Redemption (1994) original theatrical trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 16,
+        "filmId": 12,
+        "url": "https://www.youtube.com/embed/P9mwtI82k6E",
+        "name": "The Shawshank Redemption (1994) OFFICIAL TRAILER [HD 1080p]",
+        "site": "youtube"
+      },
+      {
+        "id": 17,
+        "filmId": 12,
+        "url": "https://www.youtube.com/embed/GOniB0Ykp1M",
+        "name": "Побег из Шоушенка трейлер на русском",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "sourceId": 448,
+    "year": 1994,
+    "originalTitle": "Forrest Gump",
+    "movieLength": 142,
+    "ageRating": 16,
+    "genres": ["Военный", "Драма", "История", "Комедия", "Мелодрама"],
+    "countries": ["США"],
+    "names": ["Форрест Гамп"],
+    "description": "Сидя на автобусной остановке, Форрест Гамп — не очень умный, но добрый и открытый парень — рассказывает случайным встречным историю своей необыкновенной жизни.\n\nС самого малолетства парень страдал от заболевания ног, соседские мальчишки дразнили его, но в один прекрасный день Форрест открыл в себе невероятные способности к бегу. Подруга детства Дженни всегда его поддерживала и защищала, но вскоре дороги их разошлись.",
+    "rating": 8.918,
+    "posters": [
+      {
+        "id": 8,
+        "filmId": 13,
+        "url": "https://st.kp.yandex.net/images/film_big/448.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_448.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 18,
+        "filmId": 13,
+        "url": "https://www.youtube.com/embed/76WeEuR0qk4",
+        "name": "Forrest Gump (1994) Original Trailer [FHD]",
+        "site": "youtube"
+      },
+      {
+        "id": 19,
+        "filmId": 13,
+        "url": "https://www.youtube.com/embed/Mj9IA9tTfio",
+        "name": "Official 25th Anniversary Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 20,
+        "filmId": 13,
+        "url": "https://www.youtube.com/embed/bLvqoHBptjg",
+        "name": "Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 21,
+        "filmId": 13,
+        "url": "https://www.youtube.com/embed/2mQAhwPKCuU",
+        "name": "Форрест Гамп - Trailer",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "sourceId": 329,
+    "year": 1993,
+    "originalTitle": "Schindler's List",
+    "movieLength": 195,
+    "ageRating": 16,
+    "genres": ["Биография", "Военный", "Драма", "История"],
+    "countries": ["США"],
+    "names": ["Список Шиндлера"],
+    "description": "Фильм рассказывает реальную историю загадочного Оскара Шиндлера, члена нацистской партии, преуспевающего фабриканта, спасшего во время Второй мировой войны почти 1200 евреев.",
+    "rating": 8.843,
+    "posters": [
+      {
+        "id": 9,
+        "filmId": 14,
+        "url": "https://st.kp.yandex.net/images/film_big/329.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_329.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 22,
+        "filmId": 14,
+        "url": "https://www.youtube.com/embed/bJcLRFWxRno",
+        "name": "Schindler's List - Official Trailer - Steven Spielberg, Liam Neeson, Ben Kingsley Movie HD",
+        "site": "youtube"
+      },
+      {
+        "id": 23,
+        "filmId": 14,
+        "url": "https://www.youtube.com/embed/jW0a8P-uNek",
+        "name": "Список Шиндлера (1993) - Дублированный Трейлер HD",
+        "site": "youtube"
+      },
+      {
+        "id": 24,
+        "filmId": 14,
+        "url": "https://www.youtube.com/embed/Mb99gmSktV0",
+        "name": "Список Шиндлера - Трейлер",
+        "site": "youtube"
+      },
+      {
+        "id": 25,
+        "filmId": 14,
+        "url": "https://www.youtube.com/embed/mxphAlJID9U",
+        "name": "25th Anniversary Trailer",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "sourceId": 3498,
+    "year": 2003,
+    "originalTitle": "The Lord of the Rings: The Return of the King",
+    "movieLength": 201,
+    "ageRating": 12,
+    "genres": ["Боевик", "Драма", "Приключения", "Фэнтези"],
+    "countries": ["США", "Новая Зеландия"],
+    "names": ["Властелин колец: Возвращение короля"],
+    "description": "Повелитель сил тьмы Саурон направляет свою бесчисленную армию под стены Минас-Тирита, крепости Последней Надежды. Он предвкушает близкую победу, но именно это мешает ему заметить две крохотные фигурки — хоббитов, приближающихся к Роковой Горе, где им предстоит уничтожить Кольцо Всевластья.",
+    "rating": 8.656,
+    "posters": [
+      {
+        "id": 10,
+        "filmId": 15,
+        "url": "https://st.kp.yandex.net/images/film_big/3498.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_3498.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 26,
+        "filmId": 15,
+        "url": "https://www.youtube.com/embed/zckJCxYxn1g",
+        "name": "The Return of the King | The Lord of the Rings 4K Ultra HD | Warner Bros. Entertainment",
+        "site": "youtube"
+      },
+      {
+        "id": 27,
+        "filmId": 15,
+        "url": "https://www.youtube.com/embed/o9-NreR2Ji0",
+        "name": "The Lord of the Rings: The Return of the King (2003) Trailer 1",
+        "site": "youtube"
+      },
+      {
+        "id": 28,
+        "filmId": 15,
+        "url": "https://www.youtube.com/embed/x-4VMViImXo",
+        "name": "Властелин колец  Возвращение Короля Трейлер на русском 2003",
+        "site": "youtube"
+      },
+      {
+        "id": 29,
+        "filmId": 15,
+        "url": "https://www.youtube.com/embed/OfD0wmd_JxI",
+        "name": "Властелин колец: Возвращение Короля - Трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "sourceId": 258687,
+    "year": 2014,
+    "originalTitle": "Interstellar",
+    "movieLength": 169,
+    "ageRating": 16,
+    "genres": ["Драма", "Приключения", "Фантастика"],
+    "countries": ["США", "Канада", "Великобритания"],
+    "names": ["Интерстеллар"],
+    "description": "Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и найти планету с подходящими для человечества условиями.",
+    "rating": 8.621,
+    "posters": [
+      {
+        "id": 11,
+        "filmId": 16,
+        "url": "https://st.kp.yandex.net/images/film_big/258687.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_258687.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 30,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/0vxOhd4qlnA",
+        "name": "Interstellar Movie - Official Trailer 3",
+        "site": "youtube"
+      },
+      {
+        "id": 31,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/LY19rHKAaAg",
+        "name": "Interstellar – Trailer 4 – Official Warner Bros.",
+        "site": "youtube"
+      },
+      {
+        "id": 32,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/Rt2LHkSwdPQ",
+        "name": "Interstellar Movie - Official Trailer 2",
+        "site": "youtube"
+      },
+      {
+        "id": 33,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/ePbKGoIGAXY",
+        "name": "Interstellar – Trailer 3 – Official Warner Bros.",
+        "site": "youtube"
+      },
+      {
+        "id": 34,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/2LqzF5WauAw",
+        "name": "Interstellar Movie - Official Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 35,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/zSWdZVtXT7E",
+        "name": "Interstellar - Trailer - Official Warner Bros. UK",
+        "site": "youtube"
+      },
+      {
+        "id": 36,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/nyc6RJEEe0U",
+        "name": "Interstellar Movie - Official Teaser",
+        "site": "youtube"
+      },
+      {
+        "id": 37,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/827FNDpQWrQ",
+        "name": "Interstellar - Teaser Trailer - Official Warner Bros. UK",
+        "site": "youtube"
+      },
+      {
+        "id": 38,
+        "filmId": 16,
+        "url": "https://www.youtube.com/embed/qcPfI0y7wRU",
+        "name": "Интерстеллар (Interstellar) -- дублированный трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "sourceId": 361,
+    "year": 1999,
+    "originalTitle": "Fight Club",
+    "movieLength": 139,
+    "ageRating": 18,
+    "genres": ["Драма", "Криминал", "Триллер"],
+    "countries": ["США", "Германия"],
+    "names": ["Бойцовский клуб", "Boytsovskiy klub"],
+    "description": "Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — удел слабых, а единственное, ради чего стоит жить, — саморазрушение.\n\nПроходит немного времени, и вот уже новые друзья лупят друг друга почем зря на стоянке перед баром, и очищающий мордобой доставляет им высшее блаженство. Приобщая других мужчин к простым радостям физической жестокости, они основывают тайный Бойцовский клуб, который начинает пользоваться невероятной популярностью.",
+    "rating": 8.658,
+    "posters": [
+      {
+        "id": 12,
+        "filmId": 17,
+        "url": "https://st.kp.yandex.net/images/film_big/361.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_361.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 39,
+        "filmId": 17,
+        "url": "https://www.youtube.com/embed/BdJKm16Co6M",
+        "name": "#TBT Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 40,
+        "filmId": 17,
+        "url": "https://www.youtube.com/embed/O-b2VfmmbyA",
+        "name": "Fight Club (1999) Trailer - Starring Brad Pitt, Edward Norton, Helena Bonham Carter",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "sourceId": 342,
+    "year": 1994,
+    "originalTitle": "Pulp Fiction",
+    "movieLength": 154,
+    "ageRating": 18,
+    "genres": ["Драма", "Криминал"],
+    "countries": ["США"],
+    "names": ["Криминальное чтиво"],
+    "description": "Двое бандитов Винсент Вега и Джулс Винфилд ведут философские беседы в перерывах между разборками и решением проблем с должниками криминального босса Марселласа Уоллеса.\n\nВ первой истории Винсент проводит незабываемый вечер с женой Марселласа Мией. Во второй рассказывается о боксёре Бутче Кулидже, купленном Уоллесом, чтобы сдать бой. В третьей истории Винсент и Джулс по нелепой случайности попадают в неприятности.",
+    "rating": 8.645,
+    "posters": [
+      {
+        "id": 13,
+        "filmId": 18,
+        "url": "https://st.kp.yandex.net/images/film_big/342.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_342.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 42,
+        "filmId": 18,
+        "url": "https://www.youtube.com/embed/tGpTpVyI_OQ",
+        "name": "Official Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 43,
+        "filmId": 18,
+        "url": "https://www.youtube.com/embed/2fUuQsLcJVw",
+        "name": "Криминальное чтиво / Pulp Fiction 1994 Русский трейлер HD",
+        "site": "youtube"
+      },
+      {
+        "id": 44,
+        "filmId": 18,
+        "url": "https://www.youtube.com/embed/VHDmVv8fg1k",
+        "name": "Криминальное Чтиво - Трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "sourceId": 312,
+    "year": 2002,
+    "originalTitle": "The Lord of the Rings: The Two Towers",
+    "movieLength": 179,
+    "ageRating": 12,
+    "genres": ["Боевик", "Драма", "Приключения", "Фэнтези"],
+    "countries": ["США", "Новая Зеландия"],
+    "names": ["Властелин колец: Две крепости"],
+    "description": "Братство распалось, но Кольцо Всевластья должно быть уничтожено. Фродо и Сэм вынуждены довериться Голлуму, который взялся провести их к вратам Мордора. Громадная армия Сарумана приближается: члены братства и их союзники готовы принять бой. Битва за Средиземье продолжается.",
+    "rating": 8.601,
+    "posters": [
+      {
+        "id": 14,
+        "filmId": 19,
+        "url": "https://st.kp.yandex.net/images/film_big/312.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_312.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 45,
+        "filmId": 19,
+        "url": "https://www.youtube.com/embed/nuTU5XcZTLA",
+        "name": "The Two Towers | The Lord of the Rings 4K Ultra HD | Warner Bros. Entertainment",
+        "site": "youtube"
+      },
+      {
+        "id": 46,
+        "filmId": 19,
+        "url": "https://www.youtube.com/embed/-PAGAOrv6UI",
+        "name": "The Lord of the Rings: The Two Towers (2002) Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 47,
+        "filmId": 19,
+        "url": "https://www.youtube.com/embed/Ynxi7kx9dVI",
+        "name": "Властелин колец: Две крепости - Трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "sourceId": 42664,
+    "year": 1973,
+    "originalTitle": null,
+    "movieLength": 88,
+    "ageRating": 6,
+    "genres": ["Комедия", "Приключения", "Фантастика"],
+    "countries": ["СССР"],
+    "names": [
+      "Иван Васильевич меняет профессию",
+      "Ivan Vasilevich menyaet professiyu"
+    ],
+    "description": "Инженер-изобретатель Тимофеев сконструировал машину времени, которая соединила его квартиру с далеким шестнадцатым веком - точнее, с палатами государя Ивана Грозного. Туда-то и попадают тезка царя пенсионер-общественник Иван Васильевич Бунша и квартирный вор Жорж Милославский.\n\nНа их место в двадцатом веке «переселяется» великий государь. Поломка машины приводит ко множеству неожиданных и забавных событий...",
+    "rating": 8.785,
+    "posters": [
+      {
+        "id": 15,
+        "filmId": 20,
+        "url": "https://st.kp.yandex.net/images/film_big/42664.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_42664.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 48,
+        "filmId": 20,
+        "url": "https://www.youtube.com/v/tpUDctrOPr4",
+        "name": "Фан-ролик",
+        "site": "youtube"
+      },
+      {
+        "id": 49,
+        "filmId": 20,
+        "url": "https://www.youtube.com/v/bwqw0IAt3LM",
+        "name": "Фрагмент",
+        "site": "youtube"
+      },
+      {
+        "id": 50,
+        "filmId": 20,
+        "url": "https://widgets.kinopoisk.ru/discovery/trailer/134503?onlyPlayer=1&autoplay=1&cover=1",
+        "name": "Фрагмент №4",
+        "site": "kinopoisk_widget"
+      },
+      {
+        "id": 51,
+        "filmId": 20,
+        "url": "https://www.youtube.com/v/cjtzpkPnC3E",
+        "name": "Фрагмент №3",
+        "site": "youtube"
+      },
+      {
+        "id": 52,
+        "filmId": 20,
+        "url": "https://www.youtube.com/v/kijz3I_lKdY",
+        "name": "Фрагмент №2",
+        "site": "youtube"
+      },
+      {
+        "id": 53,
+        "filmId": 20,
+        "url": "https://www.youtube.com/embed/0IALFVo90K4",
+        "name": "Иван Васильевич меняет профессию - трейлер",
+        "site": "youtube"
+      },
+      {
+        "id": 54,
+        "filmId": 20,
+        "url": "https://www.youtube.com/embed/APPwR-Si4hE",
+        "name": "Иван Васильевич меняет профессию - Trailer",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "sourceId": 476,
+    "year": 1985,
+    "originalTitle": "Back to the Future",
+    "movieLength": 116,
+    "ageRating": 12,
+    "genres": ["Комедия", "Приключения", "Фантастика"],
+    "countries": ["США"],
+    "names": ["Назад в будущее", "Назад в будущee"],
+    "description": "Подросток Марти с помощью машины времени, сооружённой его другом-профессором доком Брауном, попадает из 80-х в далекие 50-е. Там он встречается со своими будущими родителями, ещё подростками, и другом-профессором, совсем молодым.",
+    "rating": 8.644,
+    "posters": [
+      {
+        "id": 16,
+        "filmId": 21,
+        "url": "https://st.kp.yandex.net/images/film_big/476.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_476.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 55,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/U71BvFM7Wpw",
+        "name": "BACK TO THE FUTURE Trailer [1985] 4K",
+        "site": "youtube"
+      },
+      {
+        "id": 56,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/WRrCVyT09ow",
+        "name": "Theatrical Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 57,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/C-4Pr9kBtGc",
+        "name": "Official Digital Remaster Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 58,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/lGSvuOvRYPw",
+        "name": "30th Anniversary Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 59,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/qvsgGtivCgs",
+        "name": "Theatrical Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 60,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/qb7Fd0l_BRo",
+        "name": "2010 Re-Release Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 61,
+        "filmId": 21,
+        "url": "https://www.youtube.com/embed/ou8w0gQHlRE",
+        "name": "Трейлер №1 (Субтитры)",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "sourceId": 46708,
+    "year": 1979,
+    "originalTitle": null,
+    "movieLength": 150,
+    "ageRating": 16,
+    "genres": ["Драма", "Комедия", "Мелодрама"],
+    "countries": ["СССР"],
+    "names": ["Москва слезам не верит", "Moskva slezam ne verit"],
+    "description": "Москва, 1950-е годы. Три молодые провинциалки приезжают в Москву в поисках того, что ищут люди во всех столицах мира — любви, счастья и достатка. Антонина выходит замуж, растит детей, любит мужа. Людмиле Москва представляется лотереей, в которой она должна выиграть свое особенное счастье. Катерина же отчаянно влюбляется, но избранник ее оставляет. Однако она не опускает руки, в одиночку растит дочь и к тому же успевает делать блестящую карьеру. В 40 лет судьба дарит ей неожиданную встречу.",
+    "rating": 8.423,
+    "posters": [
+      {
+        "id": 17,
+        "filmId": 22,
+        "url": "https://st.kp.yandex.net/images/film_big/46708.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_46708.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 62,
+        "filmId": 22,
+        "url": "https://www.youtube.com/embed/z1GcUobfFIE",
+        "name": "Moscow Does Not Believe in Tears (English Trailer)",
+        "site": "youtube"
+      },
+      {
+        "id": 63,
+        "filmId": 22,
+        "url": "https://www.youtube.com/embed/UwpMKETIPa8",
+        "name": "Москва слезам не верит - Trailer",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "sourceId": 32898,
+    "year": 1997,
+    "originalTitle": "Knockin' on Heaven's Door",
+    "movieLength": 87,
+    "ageRating": 18,
+    "genres": ["Драма", "Комедия", "Криминал"],
+    "countries": ["Германия"],
+    "names": ["Достучаться до небес", "Dostuchat'sja do nebes"],
+    "description": "Волею судеб две абсолютные противоположности, тихоня Руди и разгильдяй Мартин, оказываются в одной больничной палате. Узнав неутешительные прогнозы, друзья решают использовать последние дни на полную катушку — угнать машину с деньгами, напиться текилы, и, конечно, увидеть море.",
+    "rating": 8.635,
+    "posters": [
+      {
+        "id": 18,
+        "filmId": 23,
+        "url": "https://st.kp.yandex.net/images/film_big/32898.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_32898.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 64,
+        "filmId": 23,
+        "url": "https://www.youtube.com/embed/hTuU2LWdQlU",
+        "name": "Knockin' on Heaven's Door Extended Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 65,
+        "filmId": 23,
+        "url": "https://www.youtube.com/embed/ihthdmPlPRc",
+        "name": "ДОСТУЧАТЬСЯ ДО НЕБЕС в кино с 9 июня",
+        "site": "youtube"
+      },
+      {
+        "id": 66,
+        "filmId": 23,
+        "url": "https://www.youtube.com/embed/kCKbDys0PPU",
+        "name": "Достучаться до небес / Knockin' on Heaven's Door (1997) - Русский трейлер",
+        "site": "youtube"
+      },
+      {
+        "id": 67,
+        "filmId": 23,
+        "url": "https://www.youtube.com/embed/Slm8s89WTOo",
+        "name": "Достучаться до небес (1997) | Русский трейлер HD | Knockin' on Heaven's Door",
+        "site": "youtube"
+      },
+      {
+        "id": 68,
+        "filmId": 23,
+        "url": "https://www.youtube.com/embed/jgt39kAWS0g",
+        "name": "Достучаться до небес (1997) — Русский трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "sourceId": 397667,
+    "year": 2009,
+    "originalTitle": "Shutter Island",
+    "movieLength": 138,
+    "ageRating": 18,
+    "genres": ["Детектив", "Драма", "Триллер"],
+    "countries": ["США"],
+    "names": ["Остров проклятых"],
+    "description": "Два американских судебных пристава отправляются на один из островов в штате Массачусетс, чтобы расследовать исчезновение пациентки клиники для умалишенных преступников. При проведении расследования им придется столкнуться с паутиной лжи, обрушившимся ураганом и смертельным бунтом обитателей клиники.",
+    "rating": 8.514,
+    "posters": [
+      {
+        "id": 19,
+        "filmId": 24,
+        "url": "https://st.kp.yandex.net/images/film_big/397667.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_397667.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 73,
+        "filmId": 24,
+        "url": "https://www.youtube.com/embed/qdPw9x9h5CY",
+        "name": "Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 74,
+        "filmId": 24,
+        "url": "https://www.youtube.com/embed/3a-k15P_IZ0",
+        "name": "ОСТРОВ ПРОКЛЯТЫХ в кино с 14 августа",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "sourceId": 44386,
+    "year": 1971,
+    "originalTitle": null,
+    "movieLength": 84,
+    "ageRating": 6,
+    "genres": ["Детектив", "Драма", "Комедия", "Криминал"],
+    "countries": ["СССР"],
+    "names": ["Джентльмены удачи"],
+    "description": "Заведующему детсадом Трошкину фатально не повезло: он оказался как две капли воды похож на бандита по кличке «Доцент», похитившего уникальный шлем Александра Македонского.\n\nМилиция внедряет добряка Трошкина в воровскую среду - и ему ничего не остается, кроме как старательно изображать своего двойника-злодея, путая всех окружающих. Со временем он настолько блестяще входит в роль, что сам начинает порой приходить в ужас. Между тем, жизни его угрожает смертельная опасность...",
+    "rating": 8.543,
+    "posters": [
+      {
+        "id": 20,
+        "filmId": 25,
+        "url": "https://st.kp.yandex.net/images/film_big/44386.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_44386.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 75,
+        "filmId": 25,
+        "url": "https://www.youtube.com/embed/oel7Jrwr7NA",
+        "name": "Джентльмены удачи - Trailer",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "sourceId": 322,
+    "year": 2004,
+    "originalTitle": "Harry Potter and the Prisoner of Azkaban",
+    "movieLength": 142,
+    "ageRating": 12,
+    "genres": ["Приключения", "Семейный", "Фэнтези"],
+    "countries": ["США", "Великобритания"],
+    "names": ["Гарри Поттер и узник Азкабана"],
+    "description": "В третьей части истории о юном волшебнике полюбившиеся всем герои — Гарри Поттер, Рон и Гермиона — возвращаются уже на третий курс школы чародейства и волшебства Хогвартс. На этот раз они должны раскрыть тайну узника, сбежавшего из зловещей тюрьмы Азкабан, чье пребывание на воле создает для Гарри смертельную опасность...",
+    "rating": 8.22,
+    "posters": [
+      {
+        "id": 21,
+        "filmId": 26,
+        "url": "https://st.kp.yandex.net/images/film_big/322.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_322.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 76,
+        "filmId": 26,
+        "url": "https://www.youtube.com/embed/1y3vfrfmoCw",
+        "name": "Harry Potter and the Prisoner of Azkaban (2004) Trailer 2",
+        "site": "youtube"
+      },
+      {
+        "id": 77,
+        "filmId": 26,
+        "url": "https://www.youtube.com/embed/Sp1yQfhwvK4",
+        "name": "Harry Potter and the Prisoner of Azkaban (2004) Trailer 1",
+        "site": "youtube"
+      },
+      {
+        "id": 78,
+        "filmId": 26,
+        "url": "https://www.youtube.com/embed/R69laoH02xg",
+        "name": "Harry Potter and the Prisoner of Azkaban - Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 79,
+        "filmId": 26,
+        "url": "https://www.youtube.com/embed/tbVjUyGxSyE",
+        "name": "Гарри Поттер и узник Азкабана - Трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "sourceId": 111543,
+    "year": 2008,
+    "originalTitle": "The Dark Knight",
+    "movieLength": 152,
+    "ageRating": 16,
+    "genres": ["Боевик", "Драма", "Криминал", "Триллер", "Фантастика"],
+    "countries": ["США", "Великобритания"],
+    "names": ["Темный рыцарь"],
+    "description": "Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы Готэма от преступности. Сотрудничество оказывается эффективным, но скоро они обнаружат себя посреди хаоса, развязанного восходящим криминальным гением, известным напуганным горожанам под именем Джокер.",
+    "rating": 8.52,
+    "posters": [
+      {
+        "id": 22,
+        "filmId": 27,
+        "url": "https://st.kp.yandex.net/images/film_big/111543.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_111543.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 80,
+        "filmId": 27,
+        "url": "https://www.youtube.com/embed/kmJLuwP3MbY",
+        "name": "Official Trailer",
+        "site": "youtube"
+      },
+      {
+        "id": 81,
+        "filmId": 27,
+        "url": "https://www.youtube.com/embed/Rms1cpB7ze4",
+        "name": "Темный рыцарь - Трейлер",
+        "site": "youtube"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "sourceId": 42782,
+    "year": 1965,
+    "originalTitle": null,
+    "movieLength": 95,
+    "ageRating": 6,
+    "genres": ["Комедия", "Криминал", "Мелодрама"],
+    "countries": ["СССР"],
+    "names": ["Операция «Ы» и другие приключения Шурика"],
+    "description": "Студент Шурик попадает в самые невероятные ситуации: сражается с хулиганом Верзилой, весьма оригинальным способом готовится к экзамену и предотвращает «ограбление века», на которое идёт троица бандитов — Балбес, Трус и Бывалый.",
+    "rating": 8.705,
+    "posters": [
+      {
+        "id": 23,
+        "filmId": 28,
+        "url": "https://st.kp.yandex.net/images/film_big/42782.jpg",
+        "previewUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_42782.jpg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 82,
+        "filmId": 28,
+        "url": "https://www.youtube.com/embed/mBhmv49uY_o",
+        "name": "Операция «Ы» и другие приключения Шурика - Trailer",
+        "site": "youtube"
+      }
+    ]
+  }
+]

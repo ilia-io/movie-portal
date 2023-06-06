@@ -69,7 +69,7 @@
 }
 
 .embla {
-  --slide-spacing: 0.5rem;
+  --slide-spacing: 0.2rem;
   --slide-size: 100%;
   --slide-height: 520px;
   padding: 1.6rem 0;
@@ -92,7 +92,7 @@
   touch-action: pan-y;
   flex-direction: row;
   height: auto;
-  // margin-left: calc(var(--slide-spacing) * -1);
+  margin-left: calc(var(--slide-spacing) * -1);
 }
 
 .embla__slide {
@@ -120,6 +120,7 @@
     transform: scale(0.95);
     min-width: 166px;
     border-radius: 8px;
+    padding-left: var(--slide-spacing);
 
     &:hover {
       transform: scale(1) translateY(0);
@@ -137,8 +138,8 @@
   &_top10,
   &_collection {
     border-radius: 8px;
+    object-fit: cover;
   }
-
 }
 
 .embla__content {
@@ -176,12 +177,13 @@
 .embla__content_top-collection {
   position: absolute;
   top: 6%;
-  right: 8%;
+  right: 10%;
+  z-index: 2;
 }
 
 .embla__content_bot-collection {
   position: absolute;
-  left: 18%;
+  left: 10%;
   bottom: 6%;
   width: 70%;
 }

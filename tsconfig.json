@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./declarations.d.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./declarations.d.ts", "src/pages/api/staticdata.js"],
   "exclude": ["node_modules"]
 }

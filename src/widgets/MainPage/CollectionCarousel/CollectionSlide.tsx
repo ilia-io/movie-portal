@@ -6,14 +6,15 @@ import StarBorderIcon from '@mui/icons-material/StarBorder';
 import HideSourceIcon from '@mui/icons-material/HideSource';
 import Tooltip from '@mui/material/Tooltip';
 import LinearProgress from '@mui/material/LinearProgress';
-import contentByIndex from './imageByIndex';
 import Image, { StaticImageData } from 'next/image';
+import { FilmResponse } from '@/shared/types/FilmResponse';
 
 type Props = {
   index: number;
+  content: (index: number) => FilmResponse;
 };
 
-const CollectionSlide = ({ index }: Props) => {
+const CollectionSlide = ({ index, content }: Props) => {
   const [showCardOverlay, setShowCardOverlay] = useState(false);
   return (
     <>
@@ -24,7 +25,8 @@ const CollectionSlide = ({ index }: Props) => {
       >
         <Image
           className="embla__slide__img embla__slide__img_collection"
-          src={contentByIndex(index).banner}
+          src={content(index).posters[0].previewUrl as string}
+          fill={true}
           alt="Your alt text"
         />
         {showCardOverlay && (
@@ -69,10 +71,10 @@ const CollectionSlide = ({ index }: Props) => {
                 sx={{ color: '#fff', alignItems: 'baseline' }}
               >
                 <Typography sx={{ fontSize: '28px', fontWeight: '800' }}>
-                  7,
+                  {content(index).rating?.toString()[0]}.
                 </Typography>
                 <Typography sx={{ fontSize: '24px', fontWeight: '800' }}>
-                  9
+                  {content(index).rating?.toString()[2]}
                 </Typography>
               </Stack>
               <Typography
@@ -92,7 +94,8 @@ const CollectionSlide = ({ index }: Props) => {
                   color: 'rgb(200,200,200)',
                 }}
               >
-                2011-2013, США, приключения
+                {content(index).year}, {content(index).countries[0]},{' '}
+                {content(index).genres[0]}
               </Typography>
               <Typography
                 sx={{
@@ -101,7 +104,7 @@ const CollectionSlide = ({ index }: Props) => {
                   color: 'rgb(200,200,200)',
                 }}
               >
-                3 сезона
+                {content(index).movieLength} минут
               </Typography>
             </Stack>
           </Stack>
