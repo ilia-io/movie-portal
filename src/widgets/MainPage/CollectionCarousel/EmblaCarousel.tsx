@@ -49,24 +49,26 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     emblaApi.on('reInit', onSelect);
   }, [emblaApi, setScrollSnaps, onSelect]);
   return (
-    <div className="embla">
-      <div
-        className="embla__viewport embla__viewport_collection"
-        ref={emblaRef}
-      >
-        <div className="embla__container">
-          {slides.map((index) => (
-            <CollectionSlide
-              key={index}
-              index={index}
-              content={contentByIndex}
-            />
-          ))}
+    <>
+      <div className="embla">
+        <div
+          className="embla__viewport embla__viewport_collection"
+          ref={emblaRef}
+        >
+          <div className="embla__container">
+            {slides.map((index) => (
+              <CollectionSlide
+                key={index}
+                index={index}
+                content={contentByIndex}
+              />
+            ))}
+          </div>
         </div>
+        <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+        <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
       </div>
-      <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-      <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
-    </div>
+    </>
   );
 };
 

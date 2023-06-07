@@ -1,6 +1,7 @@
 import React from 'react';
 import EmblaCarousel from './EmblaCarousel';
 import { EmblaOptionsType } from 'embla-carousel-react';
+import CollectionCarouselTitle from './CollectionCarouselTitle';
 
 type Props = {};
 
@@ -13,11 +14,14 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const CollectionCarousel = (props: Props) => {
   return (
-    <main className="sandbox">
-      <section className="sandbox__carousel">
-        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-      </section>
-    </main>
+    <>
+      <CollectionCarouselTitle name={'asdsad'} link={'/'} />
+      <main className="sandbox">
+        <div className="sandbox__carousel">
+          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+        </div>
+      </main>
+    </>
   );
 };
 

@@ -74,6 +74,9 @@ export default function Home() {
         <Container maxWidth="lg">
           <CollectionCarousel />
         </Container>
+        <Container maxWidth="lg">
+          <CollectionCarousel />
+        </Container>
       </main>
     </>
   );
