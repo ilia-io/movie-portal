@@ -12,6 +12,9 @@ import gift from '../../public/assets/icons/gift.svg';
 import top10 from '../../public/assets/icons/top10.svg';
 import OnlineCinemaText from '@/widgets/MainPage/OnlineCinemaText/OnlineCinemaText';
 import CollectionCarousel from '@/widgets/MainPage/CollectionCarousel/CollectionCarousel';
+import CollectionCarouselTitle from '@/widgets/MainPage/CollectionCarousel/CollectionCarouselTitle';
+import content20 from '../../public/assets/database/1-20.json';
+import content40 from '../../public/assets/database/21-40.json';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -72,10 +75,19 @@ export default function Home() {
           <OnlineCinemaText />
         </Container>
         <Container maxWidth="lg">
-          <CollectionCarousel />
+          <Stack sx={{ my: 8 }}>
+            <CollectionCarouselTitle name={'Драмы'} link={'/'} />
+            <CollectionCarousel content={content20} />
+          </Stack>
         </Container>
         <Container maxWidth="lg">
-          <CollectionCarousel />
+          <Stack  sx={{ my: 8 }}>
+            <CollectionCarouselTitle
+              name={'Приключенческие боевики'}
+              link={'/'}
+            />
+            <CollectionCarousel content={content40} />
+          </Stack>
         </Container>
       </main>
     </>

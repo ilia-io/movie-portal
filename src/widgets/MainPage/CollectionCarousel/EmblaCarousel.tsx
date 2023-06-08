@@ -6,20 +6,27 @@ import {
   NextButton,
 } from './EmblaCarouselArrowsDotsButtons';
 import CollectionSlide from './CollectionSlide';
-import contentByIndex from './imageByIndex';
+// import contentByIndex from './imageByIndex';
+import { FilmResponse } from '@/shared/types/FilmResponse';
+
 
 type PropType = {
   slides: number[];
   options?: EmblaOptionsType;
+  content: FilmResponse[];
 };
 
-const EmblaCarousel: React.FC<PropType> = (props) => {
-  const { slides, options } = props;
+const EmblaCarousel: React.FC<PropType> = ({ slides, options, content }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
+
+  const contentSlides: FilmResponse[] = content;
+
+  const contentByIndex = (index: number): FilmResponse =>
+    contentSlides[index % contentSlides.length];
 
   const scrollPrev = useCallback(
     () => emblaApi && emblaApi.scrollPrev(),
