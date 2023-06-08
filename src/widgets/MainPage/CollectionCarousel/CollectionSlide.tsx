@@ -16,6 +16,7 @@ type Props = {
 
 const CollectionSlide = ({ index, content }: Props) => {
   const [showCardOverlay, setShowCardOverlay] = useState(false);
+  // const src = content(index).posters[0].previewUrl || ''
   return (
     <>
       <div
@@ -26,7 +27,7 @@ const CollectionSlide = ({ index, content }: Props) => {
         <Link href={'/'} underline="none" target="_blank" rel="noreferrer">
           <Image
             className="embla__slide__img embla__slide__img_collection"
-            src={content(index)?.posters[0]?.previewUrl as string}
+            src={(content(index).posters[0].previewUrl as string) || ''}
             height={254}
             width={166}
             alt={content(index).names[0]}
