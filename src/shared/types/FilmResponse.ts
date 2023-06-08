@@ -15,6 +15,6 @@ export interface FilmResponse {
   countries: string[];
   persons?: Person[];
   trailers?: Trailer[];
-  posters?: Poster[];
+  posters: Poster[];
   rating?: number;
 }
