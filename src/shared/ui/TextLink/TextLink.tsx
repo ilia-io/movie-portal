@@ -10,6 +10,7 @@ const TextLink = ({ name = 'Ссылка', to = '#' }: Props) => {
   return (
     <Link
       sx={{
+        fontSize: '15px',
         ':hover': {
           color: 'white',
         },

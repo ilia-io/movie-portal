@@ -9,6 +9,10 @@ type Props = {
   paddingX?: string;
   paddingY?: string;
   topText?: string;
+  bgcolor?: string;
+  bgcolorHover?: string;
+  borderRadius?: string;
+  flex?: string;
 };
 
 const ButtonLink = ({
@@ -18,19 +22,24 @@ const ButtonLink = ({
   paddingX,
   paddingY,
   topText,
+  bgcolor = '#1F1B2E',
+  bgcolorHover = '#2E2844',
+  borderRadius = '8px',
+  flex,
 }: Props) => {
   return (
     <Button
       sx={{
-        backgroundColor: 'background.paper',
+        background: bgcolor,
         color: 'primary.contrastText',
         px: paddingX,
         py: paddingY,
-        borderRadius: '8px',
+        borderRadius,
         ':hover': {
-          bgcolor: '#2E2844',
+          bgcolor: bgcolorHover,
         },
         flexShrink: 0,
+        flex,
       }}
       href={to}
       target="_blank"

@@ -5,15 +5,16 @@ import type { AppProps } from 'next/app';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '@/shared/config/muiTheme';
+import '../widgets/MainPage/PromoCarousel/Carousel.scss';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
-      <Layout>
-        <Provider store={store}>
+      <Provider store={store}>
+        <Layout>
           <Component {...pageProps} />
-        </Provider>
-      </Layout>
+        </Layout>
+      </Provider>
     </ThemeProvider>
   );
 }
