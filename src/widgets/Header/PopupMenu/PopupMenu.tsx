@@ -11,6 +11,7 @@ const PopupMenu = ({ children }: Props) => {
       <Container maxWidth="lg">
         <Box
           sx={{
+            width: '1152px',
             height: '400px',
             backgroundColor: '#1F1B2E',
             borderRadius: '0 0 12px 12px',

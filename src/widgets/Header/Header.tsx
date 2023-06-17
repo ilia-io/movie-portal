@@ -46,7 +46,7 @@ const Header = (props: Props) => {
 
   return (
     <>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ position: 'relative' }}>
         <Box
           onMouseLeave={() => setShowPopup(false)}
           sx={{
@@ -147,25 +147,31 @@ const Header = (props: Props) => {
             </Stack>
           </Toolbar>
         </Box>
+        {showPopup && (
+          <Box
+            sx={{
+              position: 'absolute',
+              top: '100%',
+              left: 0,
+              zIndex: '10',
+            }}
+            onMouseEnter={() => setShowPopup(true)}
+            onMouseLeave={() => setShowPopup(false)}
+          >
+            <PopupMenu>
+              {activeHoverCategorie === 'Фильмы' ? (
+                <PopupContentMovies />
+              ) : activeHoverCategorie === 'Сериалы' ? (
+                <PopupContentSeries />
+              ) : activeHoverCategorie === 'Уведомления' ? (
+                <PopupContentNotifications />
+              ) : activeHoverCategorie === 'Профиль' ? (
+                <PopupContentProfile />
+              ) : null}
+            </PopupMenu>
+          </Box>
+        )}
       </Container>
-      {showPopup && (
-        <Box
-          onMouseEnter={() => setShowPopup(true)}
-          onMouseLeave={() => setShowPopup(false)}
-        >
-          <PopupMenu>
-            {activeHoverCategorie === 'Фильмы' ? (
-              <PopupContentMovies />
-            ) : activeHoverCategorie === 'Сериалы' ? (
-              <PopupContentSeries />
-            ) : activeHoverCategorie === 'Уведомления' ? (
-              <PopupContentNotifications />
-            ) : activeHoverCategorie === 'Профиль' ? (
-              <PopupContentProfile />
-            ) : null}
-          </PopupMenu>
-        </Box>
-      )}
     </>
   );
 };
